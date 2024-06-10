@@ -1,8 +1,8 @@
 #include <Adafruit_NeoPixel.h>
 
-#define PIN 28
+#define PIN 15
 #define NUMPIXELS 24
-#define BRIGHTNESS 50
+#define BRIGHTNESS 200
 #define PAUSE 50
 
 
@@ -14,9 +14,12 @@ void setup() {
 }
 
 void loop() {
-  for (size_t j = 0; j < 3; j++) {
-    color[j] = random(BRIGHTNESS);
-  }
+  color[0] = random(0, BRIGHTNESS);
+  color[1] = random(0, BRIGHTNESS - color[0]);
+  color[2] = BRIGHTNESS - (color[0] + color[1]);
+  // for (size_t j = 0; j < 3; j++) {
+  //   color[j] = random(BRIGHTNESS);
+  // }
   for (size_t j = 0; j < NUMPIXELS; j++) {
     pixels.clear();
     pixels.setPixelColor(j, color[0], color[1], color[2]);
