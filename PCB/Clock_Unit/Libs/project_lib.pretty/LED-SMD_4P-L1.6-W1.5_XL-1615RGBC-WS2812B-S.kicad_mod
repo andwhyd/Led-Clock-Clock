@@ -1,0 +1,131 @@
+(footprint "LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "LED**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "1db0b685-0236-443f-8a7e-95269c72122a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-S"
+		(at 0 4.48 0)
+		(layer "F.Fab")
+		(uuid "b8b68e0f-b44b-4e88-b64d-3beba0ecca89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2330bc0f-9e8c-4b5f-989d-9120b8fbd78c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16811702-6afe-445b-8653-4f42bf96c1f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.76 -1.01)
+		(end 0.76 -1.01)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d0ab3b8-0b28-4700-a454-2d300135993a")
+	)
+	(fp_line
+		(start 0.76 1.02)
+		(end -0.76 1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa1611f6-57c8-4b6a-9432-cb9ae95edd1b")
+	)
+	(fp_circle
+		(center -0.8 -0.75)
+		(end -0.77 -0.75)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "209f80f2-4c9c-4c2c-b405-a949f72e5b17")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c6172aee-af48-4ab2-b0d5-24b4fac014ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.62 -0.48)
+		(size 0.45 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1c536f9e-61d2-4ed7-9f7e-03d6bec8c0fa")
+	)
+	(pad "2" smd rect
+		(at 0.62 -0.48)
+		(size 0.45 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e92ddf5d-d940-4d12-a520-6081e2d116f1")
+	)
+	(pad "3" smd rect
+		(at -0.62 0.48)
+		(size 0.45 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f370ec3e-f8a1-43d1-8e06-4750405b7730")
+	)
+	(pad "4" smd rect
+		(at 0.62 0.48)
+		(size 0.45 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3e04f85f-88d7-4234-8c9f-0695ac2773a8")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/andwh/Documents/Projects/Led-Clock-Clock/PCB/Clock_Unit/Libs/project_lib.3dshapes/LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-S.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
