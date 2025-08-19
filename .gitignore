@@ -39,4 +39,4 @@ fp-info-cache
 *.gbrjob
 *.pdf
 *.xlsx
-/jlcpcb
+jlcpcb/
