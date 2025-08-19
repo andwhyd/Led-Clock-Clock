@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "9ae721df-498c-4733-8645-46765d3cc6c4")
-	(paper "A5")
+	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -224,6 +224,8 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "XL-1615RGBC-WS2812B-S_1_1"
 				(pin output line
 					(at -8.89 1.27 0)
 					(length 2.54)
@@ -234,7 +236,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -242,8 +244,6 @@
 						)
 					)
 				)
-			)
-			(symbol "XL-1615RGBC-WS2812B-S_1_1"
 				(pin bidirectional line
 					(at -8.89 -1.27 0)
 					(length 2.54)
@@ -254,7 +254,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -272,7 +272,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -290,7 +290,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -303,44 +303,44 @@
 		)
 	)
 	(junction
-		(at 93.98 73.66)
+		(at 172.72 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d814ec0-9016-46aa-826b-cd1dd11d3153")
+	)
+	(junction
+		(at 144.78 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24faf2cb-7ffa-4e2b-b01d-ad564ffd7447")
 	)
 	(junction
-		(at 73.66 63.5)
+		(at 124.46 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dc8b679-2183-4349-828d-ccac5a9c39b6")
 	)
 	(junction
-		(at 93.98 63.5)
+		(at 144.78 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82acb84f-069d-465f-a376-e1db2b12017f")
 	)
 	(junction
-		(at 91.44 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9cfd003b-31e9-4edc-9216-cf93f92bc62e")
-	)
-	(junction
-		(at 101.6 63.5)
+		(at 152.4 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfd97f20-bba1-47b0-b216-948db7133fa0")
 	)
 	(junction
-		(at 119.38 73.66)
+		(at 170.18 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1ef8e64-a236-40c1-8f8d-b53f704fd5f9")
 	)
 	(wire
 		(pts
-			(xy 63.5 63.5) (xy 73.66 63.5)
+			(xy 114.3 93.98) (xy 124.46 93.98)
 		)
 		(stroke
 			(width 0)
@@ -350,7 +350,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 69.85) (xy 119.38 73.66)
+			(xy 170.18 100.33) (xy 170.18 104.14)
 		)
 		(stroke
 			(width 0)
@@ -360,7 +360,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 69.85) (xy 91.44 73.66)
+			(xy 142.24 100.33) (xy 142.24 104.14)
 		)
 		(stroke
 			(width 0)
@@ -370,7 +370,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 68.58) (xy 121.92 63.5)
+			(xy 172.72 99.06) (xy 172.72 93.98)
 		)
 		(stroke
 			(width 0)
@@ -380,17 +380,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 76.2) (xy 63.5 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "353eb436-af2a-4ee2-b512-9f52d93744b1")
-	)
-	(wire
-		(pts
-			(xy 93.98 73.66) (xy 119.38 73.66)
+			(xy 144.78 104.14) (xy 170.18 104.14)
 		)
 		(stroke
 			(width 0)
@@ -400,7 +390,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 63.5) (xy 93.98 63.5)
+			(xy 124.46 93.98) (xy 144.78 93.98)
 		)
 		(stroke
 			(width 0)
@@ -410,7 +400,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 63.5) (xy 101.6 63.5)
+			(xy 184.15 104.14) (xy 172.72 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f03852a-7dee-4e32-8960-befcbd9ebb54")
+	)
+	(wire
+		(pts
+			(xy 144.78 93.98) (xy 152.4 93.98)
 		)
 		(stroke
 			(width 0)
@@ -420,7 +420,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 63.5) (xy 121.92 63.5)
+			(xy 152.4 93.98) (xy 172.72 93.98)
 		)
 		(stroke
 			(width 0)
@@ -430,17 +430,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 69.85) (xy 73.66 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b39e91c-5d2f-4eca-8470-9381c2f4687c")
-	)
-	(wire
-		(pts
-			(xy 119.38 67.31) (xy 130.81 67.31)
+			(xy 170.18 97.79) (xy 184.15 97.79)
 		)
 		(stroke
 			(width 0)
@@ -450,17 +440,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 66.04) (xy 72.39 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b732ae4-2c0e-4d0c-a76f-2a2b338a773a")
-	)
-	(wire
-		(pts
-			(xy 100.33 67.31) (xy 100.33 69.85)
+			(xy 151.13 97.79) (xy 151.13 100.33)
 		)
 		(stroke
 			(width 0)
@@ -470,7 +450,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 63.5) (xy 73.66 67.31)
+			(xy 124.46 93.98) (xy 124.46 97.79)
 		)
 		(stroke
 			(width 0)
@@ -480,7 +460,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 73.66) (xy 121.92 73.66)
+			(xy 170.18 104.14) (xy 172.72 104.14)
 		)
 		(stroke
 			(width 0)
@@ -490,17 +470,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 73.66) (xy 91.44 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abc8d5fa-cdcb-47d7-b8c4-1e2ac1cb07fa")
-	)
-	(wire
-		(pts
-			(xy 91.44 67.31) (xy 100.33 67.31)
+			(xy 142.24 97.79) (xy 151.13 97.79)
 		)
 		(stroke
 			(width 0)
@@ -510,7 +480,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 66.04) (xy 72.39 66.04)
+			(xy 114.3 100.33) (xy 124.46 100.33)
 		)
 		(stroke
 			(width 0)
@@ -520,7 +490,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 63.5) (xy 101.6 67.31)
+			(xy 152.4 93.98) (xy 152.4 97.79)
 		)
 		(stroke
 			(width 0)
@@ -530,7 +500,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 69.85) (xy 101.6 69.85)
+			(xy 151.13 100.33) (xy 152.4 100.33)
 		)
 		(stroke
 			(width 0)
@@ -540,7 +510,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 73.66) (xy 93.98 73.66)
+			(xy 142.24 104.14) (xy 144.78 104.14)
 		)
 		(stroke
 			(width 0)
@@ -550,7 +520,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 68.58) (xy 93.98 63.5)
+			(xy 144.78 99.06) (xy 144.78 93.98)
 		)
 		(stroke
 			(width 0)
@@ -558,19 +528,9 @@
 		)
 		(uuid "e87d0476-9383-42a4-9add-f107ee22f175")
 	)
-	(wire
-		(pts
-			(xy 130.81 67.31) (xy 130.81 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef50f202-69d3-46df-ad0f-0e97ee20fe77")
-	)
 	(hierarchical_label "DI"
 		(shape input)
-		(at 63.5 66.04 180)
+		(at 114.3 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -581,7 +541,7 @@
 	)
 	(hierarchical_label "VDD"
 		(shape input)
-		(at 63.5 63.5 180)
+		(at 114.3 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -592,29 +552,29 @@
 	)
 	(hierarchical_label "GND"
 		(shape output)
-		(at 63.5 73.66 180)
+		(at 184.15 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6872a4dc-50b4-45bb-80c4-cd4b48d7218c")
 	)
 	(hierarchical_label "DO"
 		(shape output)
-		(at 63.5 76.2 180)
+		(at 184.15 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6b2516e4-a899-4ead-8d1f-34cae6115716")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 121.92 71.12 0)
+		(at 172.72 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -622,7 +582,7 @@
 		(dnp no)
 		(uuid "105dd1c0-37c9-42e8-9e50-6f2b6446abbe")
 		(property "Reference" "C2"
-			(at 124.46 69.8563 0)
+			(at 175.26 100.3363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -631,7 +591,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 124.46 72.3963 0)
+			(at 175.26 102.8763 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -640,7 +600,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 121.92 71.12 0)
+			(at 172.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -649,7 +609,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 71.12 0)
+			(at 172.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -658,7 +618,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 121.92 71.12 0)
+			(at 172.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -775,7 +735,7 @@
 	)
 	(symbol
 		(lib_id "project_lib:XL-1615RGBC-WS2812B-S")
-		(at 82.55 68.58 0)
+		(at 133.35 99.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -784,7 +744,7 @@
 		(dnp no)
 		(uuid "80a3e384-df6c-463d-9982-921b1840a576")
 		(property "Reference" "LED1"
-			(at 82.55 59.69 0)
+			(at 133.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -792,7 +752,7 @@
 			)
 		)
 		(property "Value" "XL-1615RGBC-WS2812B-S"
-			(at 82.55 62.23 0)
+			(at 133.35 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -800,7 +760,7 @@
 			)
 		)
 		(property "Footprint" "Project_Library:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-S"
-			(at 82.55 77.47 0)
+			(at 133.35 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -809,7 +769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 68.58 0)
+			(at 133.35 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -818,7 +778,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 68.58 0)
+			(at 133.35 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -827,7 +787,7 @@
 			)
 		)
 		(property "LCSC Part" "C41413180"
-			(at 82.55 80.01 0)
+			(at 133.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,7 +910,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 93.98 71.12 0)
+		(at 144.78 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -958,7 +918,7 @@
 		(dnp no)
 		(uuid "975aa400-3a7f-434b-8603-5859b8d07b44")
 		(property "Reference" "C1"
-			(at 96.52 69.8563 0)
+			(at 147.32 100.3363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -967,7 +927,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 96.52 72.3963 0)
+			(at 147.32 102.8763 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,7 +936,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 93.98 71.12 0)
+			(at 144.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -985,7 +945,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 71.12 0)
+			(at 144.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,7 +954,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 93.98 71.12 0)
+			(at 144.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1111,7 +1071,7 @@
 	)
 	(symbol
 		(lib_id "project_lib:XL-1615RGBC-WS2812B-S")
-		(at 110.49 68.58 0)
+		(at 161.29 99.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1120,7 +1080,7 @@
 		(dnp no)
 		(uuid "a2fd559e-7d11-4ba8-9db7-4614a48c55e8")
 		(property "Reference" "LED2"
-			(at 110.49 59.69 0)
+			(at 161.29 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1128,7 +1088,7 @@
 			)
 		)
 		(property "Value" "XL-1615RGBC-WS2812B-S"
-			(at 110.49 62.23 0)
+			(at 161.29 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1136,7 +1096,7 @@
 			)
 		)
 		(property "Footprint" "Project_Library:LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B-S"
-			(at 110.49 77.47 0)
+			(at 161.29 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,7 +1105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 68.58 0)
+			(at 161.29 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1154,7 +1114,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 68.58 0)
+			(at 161.29 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1163,7 +1123,7 @@
 			)
 		)
 		(property "LCSC Part" "C41413180"
-			(at 110.49 80.01 0)
+			(at 161.29 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)

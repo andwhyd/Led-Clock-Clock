@@ -37,3 +37,5 @@ fp-info-cache
 *.gbr
 *.gbrjob
 *.pdf
+*.xlsx
+/jlcpcb
